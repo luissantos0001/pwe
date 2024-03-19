@@ -2,7 +2,7 @@
 
 ### Aulas Ministradas
 
-- [Olá Mundo](https://luissantos0001.github.io/pwe/lista01 / "Document")
+- [Olá Mundo](https://luissantos0001.github.io/pwe/lista01/ "Document")
 
 
 # Link para o codigo das aulas 
