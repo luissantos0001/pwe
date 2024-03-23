@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="txtNome">Nome:</label>
+        <input id="txtNome"type="text" placeholder="Insira seu nome completo">
+
+        <br>
+        <br>
+
+        <label for="txtSenha">Senha:</label>
+        <input id="txtSenha"type="password" placeholder="De 5 a 8 Caracteres">
+
+        <br>
+        <br>
+
+        <label for="txtDataNas">Data de Nascimento:</label>
+        <input id="txtDataNas"type="date" >
+
+        <br>
+        <br>
+
+        <label for="txtNº">Número:</label>
+        <input id="txtNº"type="number" min="0" max="9998" step="2">
+
+        <br>
+        <br>
+
+        <fieldset>
+        <legend>Dados de email e site</legend>
+        <label for="txtEmail">Email:</label>
+        <input id="txtEmail"type="mail" >
+
+        <br>
+        <br>
+
+        <label for="txtSite">Site:</label>
+        <input id="txtSite"type="url" >
+        </fieldset>
+
+        <label for="txtEstado">Estado</label>
+        <select id="txtEstado">
+            <option value="">Minas Gerais</option>
+            <option value="">São Paulo</option>
+            <option value="">Rio de Janeiro</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="txtSexo">Sexo:</label>
+            <input id="masc"type="radio" name="sexo">
+            <label for="masc">Masculino</label>
+
+            <input type="radio" name="sexo">
+            <label for="fem">Feminino</label>
+
+        <br>
+        <br>
+
+        <label for="">Linguagens de programação de domínio</label><br>
+        <input id="language1" type="checkbox">
+        <label for="language1">C++</label><br>
+
+        <input id="language2" type="checkbox">
+        <label for="language2">JS</label><br>
+
+        <input id="language3" type="checkbox">
+        <label for="language3">NodeJS</label>
+
+
+    </form>
+</body>
+</html>
