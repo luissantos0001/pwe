@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header, footer{
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    background-color: black;
+}
+
+.menu li{
+   position: relative;
+   display: flex;
+   align-items: center;
+   padding: 5px;
+}
+
+.menu li:hover{
+    background-color: white;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px 15px 10px;
+}
+
+.menu li:hover a{
+    color: black;
+}
+
+.imgMenu{
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+}
+
+.menu li:hover .imgMenu{
+    opacity: 1;
+}
+
+.imgTopo{
+    width: 100%;
+}
+
+.titulosTopo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 30px 20px;
+    margin: 5px;
+}
+
+.titulosTopo h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.titulosTopo h3{
+    font-size: 25px;
+    color: red;
+}
+
+.secaoTituloVerde{
+    background-color: #F0F0F0;
+}
+
+.corpoTituloVerde{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.imgVerde{
+    width: 60px;
+    height: 70px;
+    padding-bottom: 5px;
+}
+
+.tituloVerde{
+    text-align: center;
+    color: #008000;
+    margin:10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+.textoVerde{
+    margin: 10px;
+}
+
+
+.secaoTextoPreto{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.textoMercado{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-items: self-start;
+}
+
+.textoMercado p{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.textoMercado div{
+    margin: 10px;
+    padding: 20px;
+}
+
+.imgMercado{
+    width: 400px;
+    height: auto;
+    padding: 20px 0;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p{
+    padding: 20px;
+    font-size: 14px;
+}
