@@ -1,0 +1,131 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;;
+    background-color: #080F72;
+}
+
+.menu li{
+    padding: 25px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+header img{
+    width: 100%;
+    height: 250px;
+}
+
+
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+
+main section:nth-of-type(odd) {
+    background-color: rgb(143, 141, 141);
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+
+main section h1 {
+    font-size: 35px;
+}
+
+
+main section p {
+    margin: 20px 0px;
+    text-align: justify;
+   
+}
+
+
+.destaque {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+main section button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+main section:nth-of-type(even) {
+    background-color: rgb(243, 235, 235);
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+   
+}
+
+
+.destaque2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: auto;
+}
+
+
+.botao {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;  
+}
+
+
+.container > div {
+    width: 100%;
+    padding: 20px;
+}
+
+
+.servicos div {
+    text-align: center;
+}
+
+
+.servicos img {
+    width: 90%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.compromisso h2{
+    text-align: left;
+}
